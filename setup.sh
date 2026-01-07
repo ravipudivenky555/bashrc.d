@@ -6,6 +6,7 @@ setup() {
 	git clone https://github.com/ravipudivenky555/bashrc.d $1
 	echo ". $1/init.bashrc" >>~/.bashrc
 	echo "Setup complete."
+	. ~/.bashrc
 	exit 0
 }
 if [ ! -d ~/.bashrc.d ]; then
