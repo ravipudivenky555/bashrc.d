@@ -9,11 +9,11 @@ al rmf='rm -f'
 al snano='sudo nano'
 al nsmi=nvidia-smi
 if [ -d ~/.bashrc.d/aliases/package_managers ];then
-	. ~/.bashrc.d/aliases/package_managers/setup.bashrc
+	. $BASHRC_DIR/aliases/package_managers/setup.bashrc
 fi
 if [ -d ~/scripts ];then
 	for x in $(ls ~/scripts/)
 	do
-		al $x=/home/venkatesh/scripts/$x
+		al $x=~/scripts/$x
 	done
 fi

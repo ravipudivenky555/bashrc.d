@@ -1,4 +1,4 @@
-PM_DIR=~/.bashrc.d/aliases/package_managers
+PM_DIR=$BASHRC_DIR/aliases/package_managers
 command_chk(){
 	command -v $1 >/dev/null 2&>/dev/null
 }

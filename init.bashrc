@@ -3,7 +3,7 @@ HISTFILESIZE=0
 
 #Load my aliases
 alias al=alias
-. ~/.bashrc.d/aliases/aliases.bashrc
+. $BASHRC_DIR/aliases/aliases.bashrc
 
 #My Preferred directories in PATH
 export PATH=".:$PATH"
