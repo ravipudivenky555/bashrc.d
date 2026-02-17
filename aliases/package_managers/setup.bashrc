@@ -8,3 +8,6 @@ fi
 if command_chk nix ;then
 	. $PM_DIR/nix.bashrc
 fi
+if command_chk apt ;then
+	. $PM_DIR/apt.bashrc
+fi

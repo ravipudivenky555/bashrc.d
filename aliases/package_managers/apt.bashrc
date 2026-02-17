@@ -1,0 +1,6 @@
+al apti='apt install'
+al aptr='apt remove'
+al aptp='apt purge'
+al aptpu='apt purge --autoremove'
+al aptrem='apt remove --autoremove'
+al apts='apt search'
