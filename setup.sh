@@ -4,7 +4,7 @@ if [ ! command -v git ]; then
 fi
 setup() {
 	git clone https://github.com/ravipudivenky555/bashrc.d $1
-	echo "export BAHSRC_DIR=$1" >>~/.bashrc
+	echo "export BASHRC_DIR=$1" >>~/.bashrc
 	echo ". $1/init.bashrc" >>~/.bashrc
 	echo "Setup complete."
 	. ~/.bashrc
