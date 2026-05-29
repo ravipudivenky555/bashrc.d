@@ -1,6 +1,6 @@
 al nconfig='nano /etc/nixos/configuration.nix'
 al nhconfig='nano /etc/nixos/hardware-configuration.nix'
-al nbuild='nixos-rebuild boot'
-al nbuildnow='nixos-rebuild switch'
+al nrb='nixos-rebuild boot'
+al nrs='nixos-rebuild switch'
 al ncg='nix-collect-garbage -d'
 al ns='nix search nixpkgs'
