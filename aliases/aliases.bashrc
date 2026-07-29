@@ -17,3 +17,4 @@ if [ -d ~/scripts ];then
 		al $x=~/scripts/$x
 	done
 fi
+al flutter='fvm flutter'
