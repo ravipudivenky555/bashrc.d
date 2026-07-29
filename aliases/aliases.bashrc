@@ -18,3 +18,4 @@ if [ -d ~/scripts ];then
 	done
 fi
 al flutter='fvm flutter'
+al dart='fvm dart'
